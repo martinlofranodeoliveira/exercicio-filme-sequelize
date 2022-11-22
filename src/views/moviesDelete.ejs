@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deletar Filme</title>
+    <link rel='stylesheet' href='/css/style.css' />
+
+</head>
+
+<body>
+    <figure>
+        <img src="/img/logo-DH.png" alt="Logo Digital House">
+    </figure>
+    <h1>DELETAR FILME</h1>
+    <form action="?_method=DELETE" method="POST">
+        <p>Tem certeza que deseja deletar o filme <strong><%= movie.title %></strong>?</p>
+        <button type="submit">Deletar</button>
+    </form>
+
+</body>
+
+</html>
